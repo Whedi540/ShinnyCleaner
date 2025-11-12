@@ -69,7 +69,7 @@ export const Services = () => {
 
   return (
     <main
-      className="flex flex-col items-center justify-center mx-auto px-14 md:px-20 lg:px-32 w-full mt-10"
+      className="flex flex-col items-center justify-center mx-auto px-4 md:px-20 lg:px-32 w-full mt-10"
       id="Services"
     >
       {/* ===== Header Section ===== */}
@@ -88,7 +88,7 @@ export const Services = () => {
         </motion.h1>
 
         <motion.p
-          className="text-gray-500 max-w-80 mx-auto"
+          className="text-gray-500 max-w-2xl mx-auto"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
@@ -103,7 +103,7 @@ export const Services = () => {
         aria-labelledby="deep-cleaning-title"
         className="py-16 bg-gray-50 w-full"
       >
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto">
           <motion.h2
             id="deep-cleaning-title"
             className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800"
@@ -115,11 +115,12 @@ export const Services = () => {
             Deep Cleaning Services
           </motion.h2>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          {/* Grid: full width on small screens */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {deepCleaningServices.map((service, index) => (
               <motion.article
                 key={index}
-                className="relative group overflow-hidden rounded-xl shadow-lg"
+                className="relative group overflow-hidden rounded-xl shadow-lg w-full"
                 initial={{ opacity: 0, y: 100 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{
@@ -165,7 +166,7 @@ export const Services = () => {
         aria-labelledby="marble-care-title"
         className="py-16 bg-white w-full"
       >
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto">
           <motion.h2
             id="marble-care-title"
             className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800"
@@ -176,12 +177,11 @@ export const Services = () => {
           >
             Marble Care Services
           </motion.h2>
-
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {marbleCareServices.map((service, index) => (
               <motion.article
                 key={index}
-                className="relative group overflow-hidden rounded-xl shadow-lg"
+                className="relative group overflow-hidden rounded-xl shadow-lg w-full"
                 initial={{ opacity: 0, y: 100 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{
