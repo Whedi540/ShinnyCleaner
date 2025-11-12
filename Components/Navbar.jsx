@@ -56,8 +56,8 @@ const Navbar = () => {
         <ul className='flex flex-col gap-2 items-center mt-5 px-5 text-lg font-medium'>
           <li><a onClick={() => setMobilemenu(false)} className='px-4 py-2 rounded-full inline-block cursor-pointer' href="#Header">Home</a></li>
           <li><a onClick={() => setMobilemenu(false)} className='px-4 py-2 rounded-full inline-block cursor-pointer' href="#Services">Services</a></li>
-          <li><a onClick={() => setMobilemenu(false)} className='px-4 py-2 rounded-full inline-block cursor-pointer' href="#Aboutus">About Us</a></li>
-          <li><a onClick={() => setMobilemenu(false)} className='px-4 py-2 rounded-full inline-block cursor-pointer' href="#Contactus">Contact Us</a></li>
+          <li><a onClick={() => setMobilemenu(false)} className='px-4 py-2 rounded-full inline-block cursor-pointer' href="#About">About Us</a></li>
+          <li><a onClick={() => setMobilemenu(false)} className='px-4 py-2 rounded-full inline-block cursor-pointer' href="#Contact">Contact Us</a></li>
         </ul>
 
         <div className="flex justify-center mt-6 mb-10">
