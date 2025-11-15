@@ -148,7 +148,7 @@ export const Services = () => {
                   </p>
                   <a
                     className="bg-lime-300 text-black font-medium px-3 py-1 rounded-lg hover:bg-lime-400 transition-all duration-300"
-                    href="https://wa.me/965568141087"
+                    href="https://wa.me/971568141087"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -209,7 +209,7 @@ export const Services = () => {
                   </p>
                   <a
                     className="bg-lime-300 text-black font-medium px-3 py-1 rounded-lg hover:bg-lime-400 transition-all duration-300"
-                    href="https://wa.me/965568141087"
+                    href="https://wa.me/971568141087"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
