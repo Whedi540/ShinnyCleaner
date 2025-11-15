@@ -33,7 +33,7 @@ const Header = () => {
             Our Services
           </a>
           <a
-            href="https://wa.me/965568141087"
+            href="https://wa.me/971568141087"
             target="_blank"
             className="w-auto bg-lime-400 hover:bg-lime-500 text-gray-900 font-medium py-3 px-8 rounded transition text-center"
           >
