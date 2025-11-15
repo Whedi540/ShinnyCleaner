@@ -22,7 +22,7 @@ const Navbar = () => {
         </ul>
 
         <a
-          href="https://wa.me/965568141087"
+          href="https://wa.me/971568141087"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden md:flex items-center gap-2 bg-lime-300 text-black rounded-full px-3 py-2 cursor-pointer border"
@@ -62,7 +62,7 @@ const Navbar = () => {
 
         <div className="flex justify-center mt-6 mb-10">
           <a
-            href="https://wa.me/965568141087"
+            href="https://wa.me/971568141087"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 bg-green-500 text-white rounded-full px-5 py-2 cursor-pointer border border-green-700 hover:bg-green-700 transition"
