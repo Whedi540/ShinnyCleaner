@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://shinnycleaner.vercel.app"), 
+  metadataBase: new URL("https://shinnycleaner.com"), 
   title: {
     default: "Shinny Cleaners | Professional Cleaning Services in Dubai",
     template: "%s | Shinny Cleaners",
@@ -48,7 +48,7 @@ export const metadata = {
     title: "Shinny Cleaners | Professional Cleaning Services in Dubai",
     description:
       "Trusted cleaning company in Dubai offering home, office, and commercial cleaning with eco-friendly products and 24/7 support.",
-    url: "https://shinnycleaner.vercel.app",
+    url: "https://shinnycleaner.com",
     siteName: "Shinny Cleaners",
     images: [
       {
