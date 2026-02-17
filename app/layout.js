@@ -18,7 +18,7 @@ export const metadata = {
     template: "%s | Shinny Cleaners",
   },
   description:
-    "Shinny Cleaners offers professional home, office, and commercial cleaning services in Dubai. Our experienced team delivers spotless, hygienic, and eco-friendly cleaning solutions for your comfort.",
+    "Shinny Cleaners offers professional cleaning services in Dubai. Our experienced team delivers spotless, hygienic, and eco-friendly cleaning solutions for your comfort.",
   keywords: [
   "cleaning services in Dubai",
   "Deep cleaning services in Dubai",
@@ -60,7 +60,7 @@ export const metadata = {
   openGraph: {
     title: "Shinny Cleaners | Professional Cleaning Services in Dubai",
     description:
-      "Trusted cleaning company in Dubai offering home, office, and commercial cleaning with eco-friendly products and 24/7 support.",
+      "Trusted cleaning company in Dubai offering cleaning services with eco-friendly products and 24/7 support.",
     url: "https://shinnycleaner.com",
     siteName: "Shinny Cleaners",
     images: [
@@ -78,7 +78,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Shinny Cleaners | Professional Cleaning Services in Dubai",
     description:
-      "Professional home and office cleaning services in Dubai. Eco-friendly, affordable, and reliable cleaning solutions by Shinny Cleaners.",
+      "Professional  cleaning services in Dubai. Eco-friendly, affordable, and reliable cleaning solutions by Shinny Cleaners.",
     images: ["/og-image.jpg"],
     creator: "@shinnycleaners",
   },
